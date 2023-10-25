@@ -12,7 +12,7 @@ def solve(line):
     for x in V[::2]:
         sum += x
 
-    if (not isPrime(sum)):
+    if (isPrime(sum)):
         print("You\'re a coastal aircraft, Robbie, a large silver aircraft.")
     else:
         print("Bad boy! I\'ll hit you.")
